@@ -10,7 +10,7 @@ export default function Footer() {
         >
           Inventory
         </a>
-        <p className="my-6 text-gray-500 dark:text-gray-400">
+        <p className="my-6 text-gray-600 dark:text-gray-600">
           Increase your sales and keep track of every unit with our powerful
           stock management, order fulfillment, and inventory control
           software.This was was made By JB
