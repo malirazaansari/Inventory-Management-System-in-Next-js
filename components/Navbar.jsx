@@ -74,7 +74,7 @@ export default function Navbar() {
           <div className="hidden sm:flex items-center gap-4">
             <Link href="/login">Login</Link>
             <ThemeLink
-              className="bg-rose-600 hover:bg-rose-700 focus:ring-rose-300"
+              className="bg-rose-700 hover:bg-rose-600 focus:ring-rose-300"
               title="Register"
               href="/register"
             />
