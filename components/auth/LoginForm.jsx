@@ -40,7 +40,7 @@ export default function LoginForm() {
           htmlFor="email"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
-          Your email
+          Enter Your email
         </label>
         <input
           {...register("email", { required: true })}
