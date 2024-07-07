@@ -93,7 +93,7 @@ export default function Navbar() {
         }
       >
         <div className="flex justify-between items-center mb-10">
-          <h2 className="font-bold">Invoicer</h2>
+          <h2 className="font-bold">Invoicer's</h2>
           <button onClick={() => setShow(false)}>
             <AiOutlineClose className="text-2xl" />
           </button>
