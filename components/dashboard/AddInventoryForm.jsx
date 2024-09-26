@@ -55,7 +55,7 @@ export default function AddInventoryForm({ items, warehouses, suppliers }) {
         />
         <TextInput
           type="number"
-          label="Enter Quantity of Stock to Add"
+          label="Enter Quantity of Stocks to Add"
           name="addStockQty"
           register={register}
           errors={errors}
@@ -63,13 +63,13 @@ export default function AddInventoryForm({ items, warehouses, suppliers }) {
         />
         <SelectInput
           name="recievingWarehouseId"
-          label="Select the Warehouse that will receive the Stock"
+          label="Select the Warehouse that will receive the Stocks"
           register={register}
           className="w-full"
           options={warehouses}
         />
         <TextareaInput
-          label="Adjustment Notes"
+          label="Adjustment Note"
           name="notes"
           register={register}
           errors={errors}

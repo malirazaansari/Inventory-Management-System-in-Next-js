@@ -3,7 +3,7 @@ import React from "react";
 export default function Announcements() {
   return (
     <div>
-      <h2>Announcements</h2>
+      <h2>Announcements is for good!...</h2>
     </div>
   );
 }

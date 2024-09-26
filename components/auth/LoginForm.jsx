@@ -40,7 +40,7 @@ export default function LoginForm() {
           htmlFor="email"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
-          Your email
+          Enter Your email
         </label>
         <input
           {...register("email", { required: true })}
@@ -62,7 +62,7 @@ export default function LoginForm() {
           htmlFor="password"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
-          Password
+          Give Password
         </label>
         <input
           {...register("password", { required: true })}
@@ -75,7 +75,7 @@ export default function LoginForm() {
         />
         {errors.password && (
           <small className="text-red-600 text-sm ">
-            This field is required
+            Field is required
           </small>
         )}
       </div>
