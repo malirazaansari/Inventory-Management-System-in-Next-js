@@ -37,7 +37,7 @@ export default function Hero() {
 
           <ThemeLink
             className="bg-slate-50 hover:bg-slate-100 focus:ring-slate-300 text-slate-900"
-            title="Explore Account"
+            title="Explore Demo Account"
             href="/dashboard/home/overview"
             icon={AiOutlineArrowDown}
           />
